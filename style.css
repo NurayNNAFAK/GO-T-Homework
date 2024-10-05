@@ -1,0 +1,35 @@
+body{
+   
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 30px;
+}
+.page-logo-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -3%;
+}
+.page-logo-list li{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+.page-logo-list li{
+    list-style: none; 
+    color: black;
+}
+.page-logo-list a:hover{
+    color: chartreuse;
+
+}
+.One-Section{
+    font-weight: 700;
+
+}
+.One-Section button:hover{
+    color: brown;
+}
