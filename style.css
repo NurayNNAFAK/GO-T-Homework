@@ -9,7 +9,10 @@ body{
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    letter-spacing: -3%;
+    letter-spacing: 0.03em;
+    font-family: "Raleway";
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 .page-logo-list li{
     text-decoration: none;
@@ -28,11 +31,100 @@ body{
 }
 .One-Section{
     font-weight: 700;
+}
+.One-Section-H1{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    background: #2E2F42;
+}
+.One-Section-Button{
+    background-color: #4D5AE5;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.One-Section-Button button:hover{
+    background-color: #404BBF;
+}
+.One-Section-Button button:focus{
+    background-color: #404BBF;
+}
+.One-Section-Button{
+    cursor: pointer;
+}
+.One-Section-H3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.One-Section-P{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.Second-Section{
+    background-color: #f4f4fd
+}
+.Second-Section-H2{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.Second-Section-li{
+    background-color: #FFFFFF
+}
+.Second-Section-H3{
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+.Second-Section-P{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.Third-Section-H2{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.Third-Section-h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.Third-Section-P{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 
 }
-.One-Section button:hover{
-    color: brown;
+.footer-logo-title{
+    color: #2e2f42;
 }
-footer{
-    color: cyan;
+.footer-p{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
